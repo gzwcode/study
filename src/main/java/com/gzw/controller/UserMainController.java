@@ -26,6 +26,16 @@ public class UserMainController {
         return "web/index";
     }
 
+    /**
+    * @author: 龚增伟
+    * @describe: TODO
+    * param:  * @param null
+    * @Date: 2017/11/8 16:39
+    **/
+    @RequestMapping("/out")
+    public String out() {
+        return null;
+    }
 
 
 }
