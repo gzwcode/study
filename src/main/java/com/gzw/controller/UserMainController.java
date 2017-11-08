@@ -34,6 +34,7 @@ public class UserMainController {
     **/
     @RequestMapping("/out")
     public String out() {
+        System.out.println("测试代码");
         return null;
     }
 
